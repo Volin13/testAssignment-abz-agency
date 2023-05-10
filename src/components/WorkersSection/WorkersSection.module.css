@@ -1,0 +1,39 @@
+.workersList {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.item {
+  margin-bottom: 20px;
+}
+.btn {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .workersList {
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .item:not(:nth-child(2n)) {
+    margin-right: 16px;
+  }
+  .item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .item {
+    margin-bottom: 29px;
+  }
+  .item:not(:nth-child(3n)) {
+    margin-right: 29px;
+  }
+  .item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+}

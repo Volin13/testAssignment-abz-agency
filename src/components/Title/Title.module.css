@@ -1,0 +1,11 @@
+.titleThumb {
+  padding-top: 140px;
+  text-align: center;
+  margin: 0 auto 50px;
+  max-width: 90%;
+}
+.titleText {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+}
