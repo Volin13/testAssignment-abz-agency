@@ -123,9 +123,7 @@ const WorkerDataForm = () => {
     validationSchema: workersDataSchma,
 
     onSubmit: (values, { setSubmitting, resetForm }) => {
-      postWorkerData(token, values)
-        .then(data => console.log(data))
-        .catch(error => console.log(error));
+      postWorkerData(token, values);
       setSubmitting(false);
     },
   });
