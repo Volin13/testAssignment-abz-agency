@@ -1,0 +1,47 @@
+.workerCard {
+  width: 328px;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: var(--primaryWhiteColor);
+  text-align: center;
+}
+.workerCard p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.workerCard h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.workerCardImageThumb {
+  margin: 0 auto;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+
+.workerCardImage {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.workerCardName {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .workerCard {
+    max-width: 344px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .workerCard {
+    max-width: 282px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .workerCard {
+    max-width: 370px;
+  }
+}

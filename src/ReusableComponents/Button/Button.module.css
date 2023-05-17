@@ -1,0 +1,12 @@
+.btn {
+  background-color: var(--primaryYellowColor);
+  border: none;
+  padding: 4px 18px 4px 19px;
+  min-width: 100px;
+  border-radius: 50px;
+  transition: all 500ms;
+}
+.btn:disabled {
+  background-color: var(--primaryGreyColor);
+  color: var(--primaryWhiteColor);
+}
