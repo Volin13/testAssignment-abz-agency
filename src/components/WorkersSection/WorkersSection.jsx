@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import css from './WorkersSection.module.css';
 import { getWorkersList } from '../../servises/API';
 import WorkerCard from './WorkerCard';
-import Button from '../../ReusableComponents/Button/Button';
+import Button from '../../UI/UX/Button/Button';
 let isLoadWorkersList = false;
 
 const WorkersSection = () => {

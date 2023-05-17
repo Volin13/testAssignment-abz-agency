@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../ReusableComponents/Button/Button';
+import Button from '../../UI/UX/Button/Button';
 import css from './Hero.module.css';
 
 const Hero = ({ handleSignUpSectionScroll }) => {
