@@ -3,8 +3,8 @@ import css from './WorkerDataForm.module.css';
 import { useFormik } from 'formik';
 import { getPositionsId, postWorkerData, getToken } from '../../servises/API';
 import * as yup from 'yup';
-import HelperText from '../../ReusableComponents/HelperText/HelperText';
-import Button from '../../ReusableComponents/Button/Button';
+import HelperText from '../../UI/UX/HelperText/HelperText';
+import Button from '../../UI/UX/Button/Button';
 let isLoadedPositionId = false;
 let isLoadedToken = false;
 

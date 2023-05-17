@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Header.module.css';
-import Button from '../../ReusableComponents/Button/Button';
+import Button from '../../UI/UX/Button/Button';
 import { ReactComponent as SvgLogo } from '../../assets/images/Logo/Logo.svg';
 
 const Header = ({ handleUsersSectionІScroll, handleSignUpSectionScroll }) => {
