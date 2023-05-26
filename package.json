@@ -1,7 +1,7 @@
 {
   "name": "testassignment-abz-agency",
   "version": "0.1.0",
-  "homepage": "https://volin13.github.io/testAssignment-abz-agency/",
+  "homepage": "https://volin13.github.io/testassignment-abz-agency/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -22,7 +22,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"
-
   },
   "eslintConfig": {
     "extends": [
