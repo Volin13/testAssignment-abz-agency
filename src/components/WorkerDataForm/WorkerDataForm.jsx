@@ -60,11 +60,8 @@ const WorkerDataForm = () => {
       });
   }, [token]);
 
-  console.log(positionIdList);
-
   const handleImageChange = e => {
     const selectedFile = e.target.files[0];
-    console.log(selectedFile);
     if (selectedFile) {
       formik.setFieldValue('photo', selectedFile);
       setPhoto(selectedFile);
@@ -131,7 +128,6 @@ const WorkerDataForm = () => {
   if (typeof formik.values.position_id === 'string') {
     formik.setFieldValue('position_id', Number(formik.values.position_id));
   }
-  console.log(formik.values);
 
   return (
     <div className="container">

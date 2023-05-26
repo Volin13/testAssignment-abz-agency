@@ -11,7 +11,6 @@ const WorkersSection = () => {
   const [loading, setLoading] = useState(false);
   const handleLoadMoreBtnClick = () => {
     setCount(count => count + 6);
-    console.log(loading);
   };
   useEffect(() => {
     if (isLoadWorkersList) return;
